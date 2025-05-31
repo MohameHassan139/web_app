@@ -8,16 +8,17 @@ class Project {
 
 List<Project> projectList = [
   Project(
-    'Coffee Application',
-    'Presenting "Coffee" - a Flutter UI application that invites you to indulge in a delightful coffee adventure. Immerse yourself in the world of rich aroma and flavor as you browse through an exquisite selection of specialty coffees. With a user-friendly interface, exploring different blends and discovering their unique details becomes a delightful experience.',
-    'assets/images/coffee.png',
-    'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+    'AR Furniture Shopping App',
+    'An advanced furniture shopping experience powered by Augmented Reality (AR) and 3D product visualization. This mobile app allows users to explore, preview, and purchase furniture as if they were physically in the showroom — all from their phone.',
+    'assets/images/AR.jpg',
+    'https://github.com/MohameHassan139/grade-project',
   ),
   Project(
-    'Car Controller Application UI',
-    'Car Control Dashboard is a user-friendly mobile application built using Flutter and powered by GetX for efficient state management. Enjoy a modern and intuitive design that adapts to various screen sizes, Interact with dynamic car controls, including speed, steering, and temperature. Realistic animations enhance the visual appeal, making it feel like you are controlling a real car!',
-    'assets/images/car.png',
-    'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
+    'The Noble Qur’an App',
+    """A modern, lightweight, and elegant Quran app that allows you to read, listen, and memorize the Holy Qur’an — anywhere, anytime.
+Built with ❤️ using Flutter, and designed for a smooth and spiritual user experience.""",
+    'assets/images/quran.jpg',
+    'https://github.com/MohameHassan139/Al_quran_Al_karim',
   ),
   Project(
       'Neumorphic Clockify',
