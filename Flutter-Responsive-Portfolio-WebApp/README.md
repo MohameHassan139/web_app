@@ -72,8 +72,8 @@ I welcome contributions and suggestions from the community! If you come across a
 
 Your feedback and thoughts are highly valued. Feel free to connect with me through:
 
-- **Email:** rh676838@gmail.com
-- **LinkedIn:** [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar)
+- **Email:** mohamedhessan139@gmail.com
+- **LinkedIn:** [Mohamed Hassan ](https://)
 
 ## License
 
@@ -81,4 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### Designed and developed with ❤️ by [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar/).
+### Designed and developed with ❤️ by [Mohamed Hassan](https://www.linkedin.com/in/hamad-anwar/).
