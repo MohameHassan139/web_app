@@ -17,6 +17,7 @@ class HomePage extends StatelessWidget {
       ProjectsView(),
       Certifications(),
       AchievementsScreen(),
+      // Add more pages as needed
     ]);
   }
 }
