@@ -3,6 +3,7 @@ import 'package:flutter_portfolio/view%20model/controller.dart';
 import 'package:flutter_portfolio/res/constants.dart';
 import 'package:flutter_portfolio/view/main/components/navigation_bar.dart';
 import '../../view model/responsive.dart';
+import '../intro/components/side_menu_button.dart';
 import 'components/drawer/drawer.dart';
 import 'components/navigation_button_list.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
@@ -12,7 +13,9 @@ class MainView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+  
       drawer: const CustomDrawer(),
+      
       body: Center(
         child: Column(
           children: [
