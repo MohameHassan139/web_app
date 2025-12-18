@@ -9,21 +9,23 @@ class AchievementsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Colors.black,
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children:  [
-                TitleText(prefix: 'About', title: 'Achievements'),
-               
-                SizedBox(height: 24),
-                AchievementsGrid(),
-              ],
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: defaultPadding),
+              child: Column(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  TitleText(prefix: 'About', title: 'Achievements'),
+                  SizedBox(height: 24),
+                  AchievementsGrid(),
+                ],
+              ),
             ),
           ),
         ),

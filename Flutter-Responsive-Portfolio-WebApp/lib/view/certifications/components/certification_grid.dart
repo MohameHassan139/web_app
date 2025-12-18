@@ -18,6 +18,7 @@ class CertificateGrid extends StatelessWidget {
           crossAxisCount: crossAxisCount, childAspectRatio: ratio),
       itemBuilder: (context, index) {
         return Obx(() => AnimatedContainer(
+          
             duration: const Duration(milliseconds: 200),
             margin: const EdgeInsets.symmetric(
                 vertical: defaultPadding, horizontal: defaultPadding),

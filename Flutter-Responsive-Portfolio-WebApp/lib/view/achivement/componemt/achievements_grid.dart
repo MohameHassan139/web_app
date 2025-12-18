@@ -55,6 +55,7 @@ class AchievementsGrid extends StatelessWidget {
       builder: (context, constraints) {
         final isWide = constraints.maxWidth > 600;
         return Wrap(
+          alignment: WrapAlignment.spaceEvenly,
           spacing: 30,
           runSpacing: 30,
           children: achievements.map((achievement) {

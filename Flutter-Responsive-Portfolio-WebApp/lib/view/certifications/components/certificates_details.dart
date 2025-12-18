@@ -23,16 +23,20 @@ class CertificateStack extends StatelessWidget {
           padding: const EdgeInsets.all(defaultPadding),
           height: double.infinity,
           width: double.infinity,
+
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               color: bgColor),
           duration: const Duration(milliseconds: 500),
           child: SingleChildScrollView(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   certificateList[index].name,
+                  
                   style: Theme.of(context)
                       .textTheme
                       .labelMedium!
@@ -46,8 +50,15 @@ class CertificateStack extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(certificateList[index].organization,style: const TextStyle(color: Colors.amber),),
-                    Text(certificateList[index].date,style: const TextStyle(color: Colors.grey,fontSize: 12),),
+                    Text(
+                      certificateList[index].organization,
+                      style: const TextStyle(color: Colors.amber),
+                    ),
+                    Text(
+                      certificateList[index].date,
+                      style: const TextStyle(color: Colors.grey, fontSize: 12),
+                      overflow: TextOverflow.ellipsis,
+                    ),
                   ],
                 ),
                 const SizedBox(height: defaultPadding/2,),
