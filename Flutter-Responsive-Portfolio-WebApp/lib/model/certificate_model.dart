@@ -56,23 +56,9 @@ List<CertificateModel> certificateList = [
     credential:
         'https://drive.google.com/file/d/1wGDsgxdPSWEaLdr2_f1AR2gVuC0uwpWo/view?usp=sharing',
   ),
-  CertificateModel(
-    name: 'Create a Website Using Wordpress : Free Hosting & Sub-domain',
-    organization: 'Coursera',
-    date: 'AUG 2021',
-    skills:
-        'Web Development . Database Application . Design and Product . Web Development',
-    credential: 'https://coursera.org/share/341e5a1dfb063a5616a25c54feecdcd0',
-  ),
 
-  CertificateModel(
-    name: 'Build a Full Website using WordPress',
-    organization: 'Coursera',
-    date: 'JUL 2023',
-    skills: 'Web Development . Marketing ',
-    credential:  'https://www.linkedin.com/learning/certificates/8f8be25531d2bcdbab1972482150277f9a239a13ba4d314c0574638bf28d07d2',
-  ),
-  
+
+
 
 
 
