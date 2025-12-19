@@ -19,7 +19,14 @@ class TopNavigationBar extends StatelessWidget {
           ),
           // if(Responsive.isLargeMobile(context)) MenuButton(),
           const Spacer(flex: 2,),
-          if (!Responsive.isLargeMobile(context)) const NavigationButtonList(),
+          if (!Responsive.isLargeMobile(context))
+            Align(
+              alignment: Alignment.center,
+              child: SizedBox(
+                  width: MediaQuery.of(context).size.width * 0.5,
+                  height: 60,
+                  child: const NavigationButtonList()),
+            ),
           const Spacer(flex: 2,),
           const ConnectButton(),
           const Spacer(),

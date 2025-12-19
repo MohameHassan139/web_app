@@ -27,12 +27,12 @@ class MainView extends StatelessWidget {
             if (Responsive.isLargeMobile(context))
               Row(
                 children: [
-                  Spacer(),
+                  const Spacer(),
                   SizedBox(
-                      width: MediaQuery.of(context).size.width * 0.85,
+                      width: MediaQuery.of(context).size.width * 0.7,
                       height: 60,
-                      child: NavigationButtonList()),
-                  Spacer()
+                      child: const NavigationButtonList()),
+                  const Spacer()
                 ],
               ),
             Flexible(
